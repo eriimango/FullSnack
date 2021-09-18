@@ -1,0 +1,36 @@
+/* this corresponds to the grid.html*/
+
+body{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-column: repeat(12, 1fr);
+  grid-template-rows: 40px 100px 40px;
+}
+
+.header {
+  grid-column: span 12;
+}
+
+.menu {
+  grid-column: span 2;
+}
+
+.content {
+  grid-column: span 10;
+}
+
+.contact {
+  grid-column: span 12;
+}
+
+.footer {
+  grid-column: span 12;
+}
