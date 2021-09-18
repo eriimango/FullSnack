@@ -1,5 +1,19 @@
-// this is the corresponding stylesheet for my flexbox learning
+/*this is the corresponding stylesheet for my flexbox learning*/
 .container {
-border: 5px solid peach;
+border: 5px solid #ffcc5c;
+display: flex;
+padding: 10;
+
+}
+
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  font-family: fantasy;
+  color: white;
+  padding: 8;
+  font-style: oblique;
+  font-size: 20;
+
 
 }
