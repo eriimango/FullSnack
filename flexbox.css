@@ -1,10 +1,4 @@
 /*this is the corresponding stylesheet for my flexbox learning*/
-.container {
-border: 5px solid #ffcc5c;
-display: flex;
-padding: 10;
-
-}
 
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -13,7 +7,29 @@ body {
   color: white;
   padding: 8;
   font-style: oblique;
-  font-size: 20;
+  font-size: 30;
+}
 
+.container {
+border: 5px solid #ffcc5c;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 10;
 
+}
+
+.home {
+  padding:12;
+  color: pink;
+}
+
+.about {
+  padding: 12;
+  color: indigo;
+}
+
+.contact {
+  padding: 12;
+  color: yellow;
 }
