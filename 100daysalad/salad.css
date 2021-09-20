@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&family=Paytone+One&display=swap');
+
+body {
+  background-color: white;
+
+}
+
+.header-title{
+  float: left;
+  width:75%
+  text-align: center;
+  padding: 30px;
+  color:black;
+}
+
+.header-title h1 {
+  font-family: 'Paytone One', sans-serif;
+  font: 50px;
+  color: white;
+}
+
+.header-title h3 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 40px;
+  color: pink
+}
+
+.text-box {
+  box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+  background: hsl(0 0% 100%);
+  color: hsl(200 50% 20%);
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: auto;
+  height: 35vmin;
+  display: flex;
+  place-item: center;
+  text-align: center;
+  padding: 3ch;
+  border-radius: 2ch;
+  border: 1px solid hsl(0 0% 83%);
+  height: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .header-title, .header-image .about, .about-text {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
